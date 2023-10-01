@@ -1,0 +1,43 @@
+﻿body {
+    background-image: url(images/backgroundimage.jpg);
+    background-position:top;
+    background-size:cover;
+    background-repeat:repeat;
+}
+nav :hover{
+    background-color:greenyellow;
+}
+header{
+    background-color:orange;
+    margin:1rem;
+    max-width:100rem;
+    text-align:center;
+}
+nav{
+    color:darkblue;
+}
+h1, h2, h2, h3, nav {
+    text-align: center;
+}
+nav :visited{
+    color:darkmagenta;
+}
+h2{
+    color:purple;
+    font-family:'Edwardian Script ITC';
+    font-size:40px;
+}
+h1 h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    background-color: orange;
+    margin: 1rem;
+    max-width: 100rem;
+    text-align:left;
+}
+title{
+    font-size:50px;
+}
