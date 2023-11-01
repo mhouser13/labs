@@ -20,7 +20,7 @@ header img {
 header{
     padding:1rem;
 }
-nav,a{
+nav a{
     background-color:rgb(245,245,245);
     color:rgb(15,15,45);
     text-decoration:none;
@@ -28,7 +28,7 @@ nav,a{
     display:inline-block;
     margin:1rem;
 }
-nav,a:hover{
+nav a:hover{
     background-color:rgb(200,200,205);
 }
 header{
