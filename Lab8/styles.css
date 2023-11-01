@@ -11,14 +11,14 @@ header {
     align-items:center;
 }
 nav>a {
-    font: #e2512d;
+    font: #e2512d;/*color not font*/
     text-decoration:none;
     padding:1rem 2rem;
     font-weight:900;
     display:inline-block;
 }
 nav>a:hover {
-     font: #A33B20;
+     font: #A33B20;/*color not font*/
      text-decoration:underline;
 }
 header{
@@ -37,7 +37,7 @@ header{
     background-image:url(images/animal.jpg);
     background-size:cover;
 }
-section,h2 {
+section,h2{/*Comma should be > */
     text-align: center;
     padding: 13rem 0;
     text-shadow: 2px 2px 2px #27213C;
@@ -88,7 +88,7 @@ span.rotate {
 }
 .sidelink {
     background-color: #27213C;
-    font:#fff;
+    font:#fff;/*color not font*/
     padding:1rem 2rem;
     text-decoration:none;
 }
@@ -97,7 +97,7 @@ span.rotate {
     transform: rotate(90deg);
     z-index:1;
     top:25rem;
-    right:-7%;
+    right:-7%;/*Instead of -7% try -5.5rem*/
 }
 section > h2 {
     border-bottom: 2rem solid #e2512d;
