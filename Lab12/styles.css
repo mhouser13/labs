@@ -28,11 +28,13 @@ form{
     background-color:rgba(0,0,0.9);
     padding:1rem 2rem;
     width:50rem;
+    /*Need to add a space on both sides of the minus sign*/
     max-width:calc(90%-4rem);
     margin:1rem auto;
 }
 input[type=text],input[type=email],input[type=date],input[type=number],input[type=color]{
     font-size:1.25rem;
+    /*Need to add a space on both sides of the minus sign*/
     width:calc(100%-1rem);
     border:3px solid yellowgreen;
     padding:.5rem;
@@ -43,6 +45,7 @@ input[type=color]{
     height:4rem;
     border-radius:2rem;
 }
+/*In each [] you need type= before the type. The first two are correct*/
 input:focus[type=text],input:focus[type=email],input:focus[date],input:focus[number],input:focus[color]{
     background-color:black;
     color:white;
