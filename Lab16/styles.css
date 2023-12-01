@@ -73,6 +73,7 @@ header a:hover{
     }
     to{
         bottom:75%;
+        /*The next property should be transform:rotate(180deg) scale(2);*/
         transform-origin:center bottom;
     }
 }
