@@ -1,0 +1,131 @@
+﻿body{
+    background-color:white;
+    color:hotpink;
+    margin:0;
+}
+header{
+    font-family:"Lobster", sans-serif;
+}
+header nav{
+    font-family: 'Lobster', sans-serif;
+}
+header nav a:hover {
+        color:black;
+        text-decoration: underline;
+}
+header nav a{
+        display:inline-block;
+        color:whitesmoke;
+        -webkit-text-stroke:thin;
+        -webkit-text-stroke-color:black;
+        font-weight:bolder;
+        font-size:25px;
+        text-align: center;
+        text-decoration:none;
+        padding:3rem;
+        border: 4px solid hotpink;
+        background-image:url(images/dots.jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main h2{
+}
+p{
+    font-family:'Inter', sans-serif;
+    font-size:25px;
+}
+h2{
+    font-family: 'Lobster', sans-serif;
+    font-size:50px;
+}
+footer{
+    font-family:'Lobster', sans-serif;
+}
+.gallery img{
+}
+footer{
+    font-size:40px;
+    background-color:hotpink;
+    color: #0b132b;
+    margin:1px;
+    padding:3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.barbielogo{
+    animation: move 2s linear infinite both alternate;
+}
+@keyframes move{
+    from{
+        transform:translateX(40%);
+    }
+    to{
+        transform:translateX(0%);
+    }
+}
+    .gallery img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .mainsec{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap:10px;
+        padding:0 50px 0 50px;
+    }
+    .mainsec img{
+        padding:0 200px 0 200px;
+    }
+.info:after{
+    content: url(images/barbielogo.png);
+    position:center;
+    bottom: -235rem;
+}
+@media screen and (max-width:500px){
+    .gallery{
+        display:block;
+    }
+    header img{
+        max-width:50%;
+    }
+    header nav a{
+        max-width:25%;
+        font-size:85%;
+    }
+    footer a{
+        font-size:50%;
+    }
+    p{
+        font-size:95%;
+    }
+    h2{
+        font-size:150%;
+    }
+    .mainsec{
+        display:block;
+    }
+    header{
+        flex-wrap:wrap;
+    }
+    .mainsec img{
+        padding:0 0 0 20px;
+    }
+    .barbielogo {
+        animation: move 2s linear infinite both alternate;
+    }
+
+    @keyframes move {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(10%);
+        }
+    }
+}
