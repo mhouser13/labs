@@ -83,7 +83,7 @@ footer{
     }
 .info:after{
     content: url(images/barbielogo.png);
-    position:center;
+    position:center;/*Delete this and bottom. It looks just fine with out them and position center isn't valid CSS.*/
     bottom: -235rem;
 }
 @media screen and (max-width:500px){
